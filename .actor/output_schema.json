@@ -1,0 +1,12 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of FEMA Disaster Assistance Tracker",
+    "description": "One record per de-identified Individual Assistance housing registrant, with damage type, assistance eligibility, and payout amounts.",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Results",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

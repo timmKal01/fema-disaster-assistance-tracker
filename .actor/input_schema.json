@@ -1,0 +1,28 @@
+{
+    "title": "FEMA Disaster Assistance Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "disasterNumber": {
+            "title": "Disaster number",
+            "type": "integer",
+            "editor": "number",
+            "description": "FEMA disaster number, e.g. 4332. Provide this and/or state."
+        },
+        "state": {
+            "title": "State",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Two-letter US state code of the damaged property, e.g. \"TX\". Provide this and/or disasterNumber."
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of registrant records to return.",
+            "default": 50,
+            "minimum": 1,
+            "maximum": 500
+        }
+    }
+}
