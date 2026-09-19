@@ -72,5 +72,5 @@ no scraping, no key, no proxy.
 
 ## Related products
 
-- [FEMA Flood Claims Lookup](https://github.com/timmKal01/fema-flood-claims-lookup) — NFIP flood insurance claim history, a narrower flood-specific signal
-- [Disaster Declaration Tracker](https://github.com/timmKal01/disaster-declaration-tracker) — new FEMA disaster declarations, upstream of the assistance activity this actor tracks
+- [FEMA Flood Claims Lookup](https://github.com/timmKal01/fema-flood-claims-lookup): NFIP flood insurance claim history, a narrower flood-specific signal
+- [Disaster Declaration Tracker](https://github.com/timmKal01/disaster-declaration-tracker): new FEMA disaster declarations, upstream of the assistance activity this actor tracks
