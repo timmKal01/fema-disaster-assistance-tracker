@@ -70,6 +70,10 @@ One direct call to the OpenFEMA Individual Assistance Housing Registrants
 API (`fema.gov/api/open/v1/IndividualAssistanceHousingRegistrantsLargeDisasters`),
 no scraping, no key, no proxy.
 
+## Pricing note
+
+Billed per **search**, not per registrant record returned, one charge whether the search returns 1 record or up to the requested max.
+
 ## Related products
 
 - [FEMA Flood Claims Lookup](https://github.com/timmKal01/fema-flood-claims-lookup): NFIP flood insurance claim history, a narrower flood-specific signal
