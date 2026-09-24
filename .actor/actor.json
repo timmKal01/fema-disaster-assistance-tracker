@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "fema-disaster-assistance-tracker",
-    "title": "FEMA Disaster Assistance Tracker: Housing by Disaster",
+    "title": "FEMA Disaster Assistance Data by Disaster",
     "description": "Search FEMA's public Individual Assistance housing registrant data by disaster number or state: damage type, assistance eligibility, and payout amounts, de-identified. For disaster recovery and relief research. No key, no proxy.",
     "version": "0.1",
     "meta": {
