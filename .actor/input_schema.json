@@ -13,7 +13,8 @@
             "title": "State",
             "type": "string",
             "editor": "textfield",
-            "description": "Two-letter US state code of the damaged property, e.g. \"TX\". Provide this and/or disasterNumber."
+            "description": "Two-letter US state code of the damaged property, e.g. \"TX\". Provide this and/or disasterNumber. If both are empty, Texas is used.",
+            "prefill": "TX"
         },
         "maxResults": {
             "title": "Max results",

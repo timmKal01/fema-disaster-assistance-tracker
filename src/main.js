@@ -4,13 +4,18 @@ import { fetchRegistrants } from './fema.js';
 await Actor.init();
 
 const input = (await Actor.getInput()) ?? {};
-const { disasterNumber, state, maxResults = 50 } = input;
+const { disasterNumber, maxResults = 50 } = input;
+let { state } = input;
 
 /** Must match the event name configured in this Actor's pay-per-event pricing on Apify. */
 const REGISTRANTS_SEARCH_EVENT = 'registrants-search';
 
+// An empty run (first click in the Console, Apify's daily health check) must
+// still return data, or Apify flags the actor "under maintenance". Only when
+// both are empty: a default state would wrongly narrow a disaster-number search.
 if (!disasterNumber && !state) {
-    throw new Error('Provide at least "disasterNumber" or "state" to scope the search.');
+    state = 'TX';
+    log.info('No disasterNumber or state given; defaulting to state "TX".');
 }
 
 const registrants = await fetchRegistrants({
