@@ -1,0 +1,88 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "disasterNumber",
+                    "damagedCity",
+                    "damagedZipCode",
+                    "residenceType",
+                    "ownRent",
+                    "grossIncome",
+                    "homeOwnersInsurance",
+                    "floodInsurance",
+                    "destroyed",
+                    "floodDamage",
+                    "rentalAssistanceAmount",
+                    "repairAmount",
+                    "replacementAmount",
+                    "sbaEligible"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "disasterNumber": {
+                        "label": "Disaster number",
+                        "format": "number"
+                    },
+                    "damagedCity": {
+                        "label": "Damaged city",
+                        "format": "text"
+                    },
+                    "damagedZipCode": {
+                        "label": "Damaged zip code",
+                        "format": "text"
+                    },
+                    "residenceType": {
+                        "label": "Residence type",
+                        "format": "text"
+                    },
+                    "ownRent": {
+                        "label": "Own rent",
+                        "format": "text"
+                    },
+                    "grossIncome": {
+                        "label": "Gross income",
+                        "format": "number"
+                    },
+                    "homeOwnersInsurance": {
+                        "label": "Home owners insurance",
+                        "format": "boolean"
+                    },
+                    "floodInsurance": {
+                        "label": "Flood insurance",
+                        "format": "boolean"
+                    },
+                    "destroyed": {
+                        "label": "Destroyed",
+                        "format": "boolean"
+                    },
+                    "floodDamage": {
+                        "label": "Flood damage",
+                        "format": "boolean"
+                    },
+                    "rentalAssistanceAmount": {
+                        "label": "Rental assistance amount",
+                        "format": "number"
+                    },
+                    "repairAmount": {
+                        "label": "Repair amount",
+                        "format": "number"
+                    },
+                    "replacementAmount": {
+                        "label": "Replacement amount",
+                        "format": "number"
+                    },
+                    "sbaEligible": {
+                        "label": "SBA eligible",
+                        "format": "boolean"
+                    }
+                }
+            }
+        }
+    }
+}
